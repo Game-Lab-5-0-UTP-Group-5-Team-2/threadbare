@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://cu68naer1ow4e"
+path="res://.godot/imported/el_rescate_del_inca_sequence_puzzle.dialogue-c72ec424a38c644c89194388b1d058d9.tres"
+
+[deps]
+
+source_file="res://scenes/quests/story_quests/el_rescate_del_inca/3_sequence_puzzle/el_rescate_del_inca_sequence_puzzle.dialogue"
+dest_files=["res://.godot/imported/el_rescate_del_inca_sequence_puzzle.dialogue-c72ec424a38c644c89194388b1d058d9.tres"]
+
+[params]
+
+defaults=true

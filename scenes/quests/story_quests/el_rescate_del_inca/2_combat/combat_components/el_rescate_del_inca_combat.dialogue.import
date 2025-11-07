@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://dgbptuwy3vyfl"
+path="res://.godot/imported/el_rescate_del_inca_combat.dialogue-665f3a7d165306f834b62c291df0feb0.tres"
+
+[deps]
+
+source_file="res://scenes/quests/story_quests/el_rescate_del_inca/2_combat/combat_components/el_rescate_del_inca_combat.dialogue"
+dest_files=["res://.godot/imported/el_rescate_del_inca_combat.dialogue-665f3a7d165306f834b62c291df0feb0.tres"]
+
+[params]
+
+defaults=true
