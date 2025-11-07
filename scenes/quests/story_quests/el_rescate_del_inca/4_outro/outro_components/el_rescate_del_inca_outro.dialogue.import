@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://cr7grymq88wvc"
+path="res://.godot/imported/el_rescate_del_inca_outro.dialogue-fff8c4355b17962f355a74fdfbf527a2.tres"
+
+[deps]
+
+source_file="res://scenes/quests/story_quests/el_rescate_del_inca/4_outro/outro_components/el_rescate_del_inca_outro.dialogue"
+dest_files=["res://.godot/imported/el_rescate_del_inca_outro.dialogue-fff8c4355b17962f355a74fdfbf527a2.tres"]
+
+[params]
+
+defaults=true

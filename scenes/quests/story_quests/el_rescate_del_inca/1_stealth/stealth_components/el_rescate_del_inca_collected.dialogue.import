@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://rhsqxu5jo6tb"
+path="res://.godot/imported/el_rescate_del_inca_collected.dialogue-8e05394c8f75c11fe980335a0cfd2bf8.tres"
+
+[deps]
+
+source_file="res://scenes/quests/story_quests/el_rescate_del_inca/1_stealth/stealth_components/el_rescate_del_inca_collected.dialogue"
+dest_files=["res://.godot/imported/el_rescate_del_inca_collected.dialogue-8e05394c8f75c11fe980335a0cfd2bf8.tres"]
+
+[params]
+
+defaults=true

@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://bqcu5n3mbi3nt"
+path="res://.godot/imported/el_rescate_del_inca_checkpoint.dialogue-1897360cb6296919d97bb10e2f25ad06.tres"
+
+[deps]
+
+source_file="res://scenes/quests/story_quests/el_rescate_del_inca/1_stealth/stealth_components/el_rescate_del_inca_checkpoint.dialogue"
+dest_files=["res://.godot/imported/el_rescate_del_inca_checkpoint.dialogue-1897360cb6296919d97bb10e2f25ad06.tres"]
+
+[params]
+
+defaults=true
