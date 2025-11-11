@@ -4,11 +4,17 @@
 ~ start
 do animation_player.play(&"walk_on")
 do animation_player.animation_finished
-Welcome to the StoryQuest template, where you'll learn how to mod elements of each scene and create your own StoryQuest! Let's start with the intro.
-In the Godot FileSystem, find the intro folder and double-click on the intro dialogue file to edit the text.
-Press enter to add a new line. Each line becomes a new dialogue box in-game.
-Select Cinematic node; drag your StoryQuest dialogue to the "Dialogue" field in the Inspector.
-Set the next scene using the "Next Scene" field in the Inspector.
+#¡Bienvenido a la plantilla de StoryQuest! Aquí aprenderás a modificar elementos de cada escena y a crear tu propia StoryQuest. Comencemos con la introducción.
+#En el sistema de archivos de Godot, busca la carpeta de introducción y haz doble clic en el archivo de diálogo para editar el texto.
+#Pulsa Intro para añadir una nueva línea. Cada línea se convierte en un nuevo cuadro de diálogo dentro del juego.
+#Selecciona el nodo Cinematic y arrastra el diálogo de tu StoryQuest al campo "Diálogo" del Inspector.
+#Establece la siguiente escena usando el campo "Siguiente escena" del Inspector.
+Año del Tahuantinsuyo, 1532.
+El Sol ha sido ocultado por sombras extranjeras...
+Los hombres de hierro y fuego han capturado al Sapa Inca, Atahualpa, señor de los cuatro suyos.
+El Imperio tiembla... pero no se rinde.
 do animation_player.play(&"walk_off")
-Explore other elements to mod, like the placeholder image, tile map, and animation options for this scene!
+#¡Explora otros elementos que puedes modificar, como la imagen de marcador de posición, el mapa de mosaicos y las opciones de animación para esta escena!
+La misión ha comenzado…
+“Rescata a Atahualpa. Devuelve el Sol a su trono.”
 => END

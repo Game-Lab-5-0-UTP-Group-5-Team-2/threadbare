@@ -1,8 +1,17 @@
 # SPDX-FileCopyrightText: The Threadbare Authors
 # SPDX-License-Identifier: MPL-2.0
 ~ start
-This simple stealth scene includes guards and a collectible. Use the nodes in the Scene Tree to build a level.
-Notice the tile map is built with multiple layers. This makes it easier to make changes to the environment.
-Click a node, like "Player" or "Guard1" and modify their properties in the Inspector, or add new elements.
-Don't be afraid to think outside the box. (Oh, and remove or replace this text!)
+En lo más alto de los Andes…
+oculto entre la niebla y la piedra,
+duerme un lugar que no pertenece al mundo de los vivos.
+Dicen que fue creado por los sabios del Sol…
+un portal donde el tiempo no fluye, sino que se curva.
+
+Amauta (voz etérea): Guerrero del Sol, has llegado al Laberinto del Tiempo de los Inkas.
+Amauta (voz etérea): Aquí, el pasado y el futuro se cruzan.
+Amauta (voz etérea): Solo quien comprenda el poder del tiempo podrá liberar a Atahualpa.
+Guerrero: Por el Tahuantinsuyo y por mi Inca…
+Guerrero: Caminaré entre los ecos del tiempo hasta hallarlo.
+Amauta (voz etérea): Entonces entra…
+Amauta (voz etérea): Que el Sol guíe tus pasos, hijo del Ande.
 => END
