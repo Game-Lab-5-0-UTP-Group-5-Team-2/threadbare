@@ -2,7 +2,7 @@
 
 [ext_resource type="TileSet" uid="uid://07fq3rspk8ia" path="res://scenes/tileset.tres" id="1_qivi7"]
 [ext_resource type="Texture2D" uid="uid://cl2ffhvbspjwx" path="res://scenes/quests/story_quests/el_rescate_del_inca/0_intro/intro_components/el_rescate_del_inca_intro_image.png" id="2_omh7s"]
-[ext_resource type="SpriteFrames" uid="uid://dbv0whqh1imf0" path="res://scenes/quests/story_quests/el_rescate_del_inca/player_components/el_rescate_del_inca_player.tres" id="3_havwe"]
+[ext_resource type="SpriteFrames" uid="uid://cyp2g1fdniphq" path="res://scenes/quests/story_quests/el_rescate_del_inca/player_components/inca.tres" id="3_qivi7"]
 [ext_resource type="Script" uid="uid://x1mxt6bmei2o" path="res://scenes/ui_elements/cinematic/cinematic.gd" id="4_tbyj2"]
 [ext_resource type="Resource" uid="uid://d4dk7vimepvk3" path="res://scenes/quests/story_quests/el_rescate_del_inca/0_intro/intro_components/el_rescate_del_inca_intro.dialogue" id="5_xqco7"]
 [ext_resource type="PackedScene" uid="uid://v3usqiwy5wpr" path="res://scenes/game_elements/props/decoration/rock/rock.tscn" id="6_xxpbj"]
@@ -131,7 +131,7 @@ y_sort_enabled = true
 
 [node name="Character" type="AnimatedSprite2D" parent="OnTheGround"]
 position = Vector2(400, 349)
-sprite_frames = ExtResource("3_havwe")
+sprite_frames = ExtResource("3_qivi7")
 animation = &"idle"
 autoplay = "idle"
 
@@ -152,3 +152,5 @@ metadata/_custom_type_script = "uid://x1mxt6bmei2o"
 
 [node name="Rock" parent="." instance=ExtResource("6_xxpbj")]
 position = Vector2(125, 403)
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
