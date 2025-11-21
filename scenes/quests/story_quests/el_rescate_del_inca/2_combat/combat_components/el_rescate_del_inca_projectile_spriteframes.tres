@@ -1,16 +1,16 @@
 [gd_resource type="SpriteFrames" load_steps=3 format=3 uid="uid://ysok2uu0gsy"]
 
-[ext_resource type="Texture2D" uid="uid://btrnacsscd0o7" path="res://scenes/quests/story_quests/el_rescate_del_inca/2_combat/combat_components/el_rescate_del_inca_projectile.png" id="1_36fx6"]
+[ext_resource type="Texture2D" uid="uid://dddpppvpuftix" path="res://scenes/quests/story_quests/el_rescate_del_inca/textures/bola de fuego.png" id="1_36fx6"]
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_a6ony"]
+[sub_resource type="AtlasTexture" id="AtlasTexture_vhneu"]
 atlas = ExtResource("1_36fx6")
-region = Rect2(0, 0, 64, 64)
+region = Rect2(0, 0, 32, 32)
 
 [resource]
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_a6ony")
+"texture": SubResource("AtlasTexture_vhneu")
 }],
 "loop": true,
 "name": &"default",
