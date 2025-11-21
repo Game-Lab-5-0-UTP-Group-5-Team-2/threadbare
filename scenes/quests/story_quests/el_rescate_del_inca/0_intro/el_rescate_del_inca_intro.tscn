@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=4 uid="uid://m7i3j6lhrdi7"]
+[gd_scene load_steps=13 format=4 uid="uid://m7i3j6lhrdi7"]
 
 [ext_resource type="TileSet" uid="uid://07fq3rspk8ia" path="res://scenes/tileset.tres" id="1_qivi7"]
 [ext_resource type="Texture2D" uid="uid://cl2ffhvbspjwx" path="res://scenes/quests/story_quests/el_rescate_del_inca/0_intro/intro_components/el_rescate_del_inca_intro_image.png" id="2_omh7s"]
@@ -6,6 +6,7 @@
 [ext_resource type="Script" uid="uid://x1mxt6bmei2o" path="res://scenes/ui_elements/cinematic/cinematic.gd" id="4_tbyj2"]
 [ext_resource type="Resource" uid="uid://d4dk7vimepvk3" path="res://scenes/quests/story_quests/el_rescate_del_inca/0_intro/intro_components/el_rescate_del_inca_intro.dialogue" id="5_xqco7"]
 [ext_resource type="PackedScene" uid="uid://v3usqiwy5wpr" path="res://scenes/game_elements/props/decoration/rock/rock.tscn" id="6_xxpbj"]
+[ext_resource type="Texture2D" uid="uid://ctwx8gghts62p" path="res://assets/third_party/tiny-swords/Deco/06.png" id="7_omh7s"]
 
 [sub_resource type="Animation" id="Animation_y1ems"]
 length = 0.001
@@ -97,6 +98,9 @@ _data = {
 &"walk_on": SubResource("Animation_55c8j")
 }
 
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_kw7av"]
+height = 42.0
+
 [node name="Intro" type="Node2D"]
 
 [node name="TileMapLayers" type="Node2D" parent="."]
@@ -152,5 +156,14 @@ metadata/_custom_type_script = "uid://x1mxt6bmei2o"
 
 [node name="Rock" parent="." instance=ExtResource("6_xxpbj")]
 position = Vector2(125, 403)
+
+[node name="Sprite2D" type="Sprite2D" parent="Rock"]
+unique_name_in_owner = true
+texture = ExtResource("7_omh7s")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Rock"]
+position = Vector2(3, 7)
+rotation = 1.5708
+shape = SubResource("CapsuleShape2D_kw7av")
 
 [node name="StaticBody2D" type="StaticBody2D" parent="."]

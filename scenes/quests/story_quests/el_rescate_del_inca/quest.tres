@@ -1,9 +1,15 @@
-[gd_resource type="Resource" script_class="Quest" load_steps=2 format=3 uid="uid://cyrs1o71ejotu"]
+[gd_resource type="Resource" script_class="Quest" load_steps=3 format=3 uid="uid://cyrs1o71ejotu"]
 
 [ext_resource type="Script" uid="uid://dts1hwdy3phin" path="res://scenes/menus/storybook/components/quest.gd" id="1_mimi8"]
+[ext_resource type="SpriteFrames" uid="uid://cyp2g1fdniphq" path="res://scenes/quests/story_quests/el_rescate_del_inca/player_components/inca.tres" id="2_727ov"]
 
 [resource]
 script = ExtResource("1_mimi8")
+status = 1
 title = "El rescate del inca"
+description = "La historia trata sobre un soldado inca, que en la epoca de la conquista española debe enfrentarse a distintas adversidades para rescatar a Atahualpa y proteger a su pueblo de los desastrez que se aproximan"
+affiliation = "UTP"
 first_scene = "uid://m7i3j6lhrdi7"
+sprite_frames = ExtResource("2_727ov")
+animation_name = &"idle"
 metadata/_custom_type_script = "uid://dts1hwdy3phin"
