@@ -80,6 +80,7 @@ projectiles=""
 guard_enemy=""
 sequence_object=""
 hook_listener=""
+enemigos_lanza_objetos=""
 
 [input]
 

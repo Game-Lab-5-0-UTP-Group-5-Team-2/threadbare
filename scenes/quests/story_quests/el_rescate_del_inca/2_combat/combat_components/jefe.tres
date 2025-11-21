@@ -1,0 +1,117 @@
+[gd_resource type="SpriteFrames" load_steps=16 format=3 uid="uid://d0lldqhxninee"]
+
+[ext_resource type="Texture2D" uid="uid://lohxe2bueq5q" path="res://scenes/quests/story_quests/el_rescate_del_inca/2_combat/combat_components/mecanica del inca-Sheet.png" id="1_kp8cs"]
+[ext_resource type="Texture2D" uid="uid://kkbf7nch6gbn" path="res://scenes/quests/story_quests/el_rescate_del_inca/2_combat/combat_components/inca boss defeat.png" id="2_4pdm6"]
+[ext_resource type="Texture2D" uid="uid://b13d27hghrm1i" path="res://scenes/quests/story_quests/el_rescate_del_inca/2_combat/combat_components/inca-Sheet idle.png" id="3_0dqk3"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_e37aw"]
+atlas = ExtResource("1_kp8cs")
+region = Rect2(1280, 0, 640, 640)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bgksi"]
+atlas = ExtResource("1_kp8cs")
+region = Rect2(1920, 0, 640, 640)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_20p18"]
+atlas = ExtResource("1_kp8cs")
+region = Rect2(0, 0, 640, 640)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ume8v"]
+atlas = ExtResource("1_kp8cs")
+region = Rect2(640, 0, 640, 640)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_f44j5"]
+atlas = ExtResource("2_4pdm6")
+region = Rect2(0, 0, 640, 640)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0kwd6"]
+atlas = ExtResource("2_4pdm6")
+region = Rect2(640, 0, 640, 640)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2aeh6"]
+atlas = ExtResource("2_4pdm6")
+region = Rect2(1280, 0, 640, 640)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_upirc"]
+atlas = ExtResource("2_4pdm6")
+region = Rect2(1920, 0, 640, 640)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tpyax"]
+atlas = ExtResource("3_0dqk3")
+region = Rect2(0, 0, 640, 640)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hlm3g"]
+atlas = ExtResource("3_0dqk3")
+region = Rect2(640, 0, 640, 640)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_j1loy"]
+atlas = ExtResource("3_0dqk3")
+region = Rect2(0, 0, 640, 640)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_12odp"]
+atlas = ExtResource("3_0dqk3")
+region = Rect2(640, 0, 640, 640)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_e37aw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bgksi")
+}],
+"loop": true,
+"name": &"attack",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_20p18")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ume8v")
+}],
+"loop": true,
+"name": &"attack anticipation",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_f44j5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0kwd6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2aeh6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_upirc")
+}],
+"loop": true,
+"name": &"defeated",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tpyax")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hlm3g")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_j1loy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_12odp")
+}],
+"loop": true,
+"name": &"walk",
+"speed": 1.0
+}]

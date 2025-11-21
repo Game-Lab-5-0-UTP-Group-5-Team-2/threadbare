@@ -1,7 +1,29 @@
-[gd_resource type="SpriteFrames" load_steps=15 format=3 uid="uid://cyp2g1fdniphq"]
+[gd_resource type="SpriteFrames" load_steps=22 format=3 uid="uid://cyp2g1fdniphq"]
 
+[ext_resource type="Texture2D" uid="uid://c26y14vh4g0oq" path="res://scenes/quests/story_quests/el_rescate_del_inca/textures/sprite inca atack.png" id="1_37umo"]
 [ext_resource type="Texture2D" uid="uid://c2iniysrw6v32" path="res://scenes/quests/story_quests/el_rescate_del_inca/textures/sprite inca idle.png" id="1_htker"]
+[ext_resource type="Texture2D" uid="uid://e8jpcf8r0etk" path="res://scenes/quests/story_quests/el_rescate_del_inca/textures/sprite inca defeat.png" id="1_noyqh"]
 [ext_resource type="Texture2D" uid="uid://cpt5tq28esy0q" path="res://scenes/quests/story_quests/el_rescate_del_inca/textures/sprite inca walk.png" id="2_0n41j"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_626ot"]
+atlas = ExtResource("1_37umo")
+region = Rect2(0, 0, 62, 51)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_p4kwm"]
+atlas = ExtResource("1_37umo")
+region = Rect2(62, 0, 62, 51)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gexmr"]
+atlas = ExtResource("1_noyqh")
+region = Rect2(0, 0, 62, 51)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sw614"]
+atlas = ExtResource("1_noyqh")
+region = Rect2(62, 0, 62, 51)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_igsak"]
+atlas = ExtResource("1_noyqh")
+region = Rect2(124, 0, 62, 51)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_0n41j"]
 atlas = ExtResource("1_htker")
@@ -53,6 +75,42 @@ region = Rect2(434, 0, 62, 51)
 
 [resource]
 animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_626ot")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_p4kwm")
+}],
+"loop": true,
+"name": &"attack_01",
+"speed": 2.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_626ot")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_p4kwm")
+}],
+"loop": true,
+"name": &"attack_02",
+"speed": 2.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gexmr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_sw614")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_igsak")
+}],
+"loop": true,
+"name": &"defeated",
+"speed": 5.0
+}, {
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_0n41j")

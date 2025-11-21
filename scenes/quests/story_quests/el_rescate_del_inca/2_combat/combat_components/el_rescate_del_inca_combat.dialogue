@@ -2,10 +2,18 @@
 # SPDX-License-Identifier: MPL-2.0
 
 ~ start
-Something in this scene will throw projectiles at you. The goal is to redirect them toward the targets.
-Explore the Scene Tree to add, change, or remove elements.
+Amauta (voz etérea): Ten cuidado bravo guerrero
+Amauta (voz etérea): el ser que custodio esta pieza es muy poderoso
+Amauta (voz etérea): y esta custodiado por sus subditos
+Amauta (voz etérea): adentrate en con siguilo
+Amauta (voz etérea): y vence al ser que te espera al final
+Amauta (voz etérea): destruyendo el altar con sus propios ataques
+Guerrero: Ire sin miedo contra este adversario
 => END
 
 ~ well_done
-You can add text here after the player takes the collectible. Be creative with this one!
+Amauta (voz etérea): Bien hecho! 
+Amauta (voz etérea): Conseguiste otra pieza en tu camino para salvar a Atahualpa
+Amauta (voz etérea): Sigue asi guerrero que te uqed muy poco para lograrlo
+Guerrero: Por el Tahuantinsuyo y por mi Inca…
 => END
